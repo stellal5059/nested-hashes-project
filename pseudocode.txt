@@ -1,1 +1,3 @@
-question to ask:
+question to ask: what zip code do you want to look at the natural gas consumption for?
+
+name["data"][#some number][{3}] <-- how to grab zip code
