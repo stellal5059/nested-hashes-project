@@ -1,3 +1,5 @@
 question to ask: what zip code do you want to look at the natural gas consumption for?
 
 energy_data["data"][#some number][{3}] <-- how to grab zip code?
+
+link to data https://data.cityofnewyork.us/Environment/Natural-Gas-Consumption-by-ZIP-Code-2010/uedp-fegm 
