@@ -1,7 +1,16 @@
 question to ask: what zip code do you want to look at the natural gas consumption for?
 
-energy_data["data"][#some number][{3}] <-- how to grab zip code?
+energy_data["data"][0][8][] <-- how to grab zip code?
 
 link to data https://data.cityofnewyork.us/Environment/Natural-Gas-Consumption-by-ZIP-Code-2010/uedp-fegm 
 
 Questions to ask in class: how to grab data within an array thats in a hash
+
+def energy_consumption(data,user_input)
+   user_input = gets.chomp
+   data.each do ||
+      if user_input == data
+         return #consumption_value
+      end
+   end
+end

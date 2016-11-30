@@ -22011,3 +22011,12 @@
       ]
    ]
 }
+
+def energy_consumption(data,user_input)
+   user_input = gets.chomp
+   data.each do ||
+      if user_input == data
+         return #consumption_value
+      end
+   end
+end
