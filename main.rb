@@ -8488,9 +8488,9 @@
 #ask: what school do you want to look up the average SAT scores for?
 def sat_scores(data,user_input)
    user_input = gets.chomp
-   data.each do ||
-      if user_input == data
-         return #consumption_value
+   sat["data"].each do |scores|
+      if user_input == sat[9]
+         return {sat_string: sat[9], average_ela: violation[0], average_math: violation[11]}#average math && average english <-- should i do writing? 
       end
    end
 end
